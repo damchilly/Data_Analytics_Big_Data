@@ -1,0 +1,80 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.ChiSquaredAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     iphone_smallmatrix_labeled_8d-weka.filters.unsupervised.attribute.Remove-R3-5,10-12,15-17,20-22,25-27,30-32,35-37,40-42,45-47,50-52-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    12973
+Attributes:   29
+              iphone
+              samsunggalaxy
+              ios
+              googleandroid
+              iphonecampos
+              samsungcampos
+              iphonecamneg
+              samsungcamneg
+              iphonecamunc
+              samsungcamunc
+              iphonedispos
+              samsungdispos
+              iphonedisneg
+              samsungdisneg
+              iphonedisunc
+              samsungdisunc
+              iphoneperpos
+              samsungperpos
+              iphoneperneg
+              samsungperneg
+              iphoneperunc
+              samsungperunc
+              iosperpos
+              googleperpos
+              iosperneg
+              googleperneg
+              iosperunc
+              googleperunc
+              iphonesentiment
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 29 iphonesentiment):
+	Chi-squared Ranking Filter
+
+Ranked attributes:
+2574.9271    1 iphone
+2448.5592    2 samsunggalaxy
+2151.9443    3 ios
+2063.9619    9 iphonecamunc
+1786.958     4 googleandroid
+1009.4581   15 iphonedisunc
+ 936.4026   11 iphonedispos
+ 832.1207   21 iphoneperunc
+ 721.8912   14 samsungdisneg
+ 713.6309   20 samsungperneg
+ 703.548    24 googleperpos
+ 687.2282    8 samsungcamneg
+ 656.0196   26 googleperneg
+ 589.5417   19 iphoneperneg
+ 565.1125    7 iphonecamneg
+ 530.0426   17 iphoneperpos
+  88.4733   25 iosperneg
+  88.1785   27 iosperunc
+  85.026    28 googleperunc
+  72.4023   10 samsungcamunc
+  65.5193   12 samsungdispos
+  53.9701   18 samsungperpos
+  53.6305   23 iosperpos
+  51.6494    5 iphonecampos
+  51.1866   22 samsungperunc
+  48.7474   13 iphonedisneg
+  44.9354   16 samsungdisunc
+  18.8182    6 samsungcampos
+
+Selected attributes: 1,2,3,9,4,15,11,21,14,20,24,8,26,19,7,17,25,27,28,10,12,18,23,5,22,13,16,6 : 28
+

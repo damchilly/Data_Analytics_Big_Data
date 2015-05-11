@@ -1,0 +1,52 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.ChiSquaredAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     galaxy_smallmatrix_labeled_8d-weka.filters.unsupervised.attribute.Remove-R3-5,10-12,15-17,20-22,25-27,30-32,35-37,40-42,45-47,50-52-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.unsupervised.attribute.Remove-R8,10,12,14,16,18,20,22-28
+Instances:    12973
+Attributes:   15
+              iphone
+              samsunggalaxy
+              ios
+              googleandroid
+              iphonecampos
+              samsungcampos
+              iphonecamneg
+              iphonecamunc
+              iphonedispos
+              iphonedisneg
+              iphonedisunc
+              iphoneperpos
+              iphoneperneg
+              iphoneperunc
+              galaxysentiment
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 15 galaxysentiment):
+	Chi-squared Ranking Filter
+
+Ranked attributes:
+9151.081    1 iphone
+3585.7989  11 iphonedisunc
+3546.4066  10 iphonedisneg
+3016.6599   7 iphonecamneg
+2813.3931   2 samsunggalaxy
+2748.3696   8 iphonecamunc
+2260.3764   9 iphonedispos
+2183.4723   3 ios
+2025.0886   5 iphonecampos
+1910.6792   4 googleandroid
+1461.1692  13 iphoneperneg
+1203.5415  12 iphoneperpos
+1167.8427  14 iphoneperunc
+1159.0254   6 samsungcampos
+
+Selected attributes: 1,11,10,7,2,8,9,3,5,4,13,12,14,6 : 14
+

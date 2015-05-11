@@ -1,0 +1,89 @@
+=== Run information ===
+
+Scheme:weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     iphone_smallmatrix_labeled_8d-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.unsupervised.attribute.Remove-R4,11,15-16,20-21,25-26,30-31,35-36,40-41,45-46,50-51,57
+Instances:    12973
+Attributes:   40
+              iphone
+              samsunggalaxy
+              sonyxperia
+              htcphone
+              ios
+              googleandroid
+              iphonecampos
+              samsungcampos
+              sonycampos
+              htccampos
+              iphonecamneg
+              samsungcamneg
+              htccamneg
+              iphonecamunc
+              samsungcamunc
+              htccamunc
+              iphonedispos
+              samsungdispos
+              htcdispos
+              iphonedisneg
+              samsungdisneg
+              htcdisneg
+              iphonedisunc
+              samsungdisunc
+              htcdisunc
+              iphoneperpos
+              samsungperpos
+              htcperpos
+              iphoneperneg
+              samsungperneg
+              htcperneg
+              iphoneperunc
+              samsungperunc
+              htcperunc
+              iosperpos
+              googleperpos
+              iosperneg
+              googleperneg
+              googleperunc
+              iphonesentiment
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        9832               75.7882 %
+Incorrectly Classified Instances      3141               24.2118 %
+Kappa statistic                          0.5412
+Mean absolute error                      0.1223
+Root mean squared error                  0.26  
+Relative absolute error                 59.5145 %
+Root relative squared error             81.1107 %
+Total Number of Instances            12973     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.657     0.012      0.909     0.657     0.763      0.837    0
+                 0.01      0.003      0.098     0.01      0.019      0.622    1
+                 0.152     0.004      0.552     0.152     0.238      0.651    2
+                 0.663     0.01       0.865     0.663     0.751      0.853    3
+                 0.313     0.01       0.795     0.313     0.449      0.703    4
+                 0.959     0.493      0.73      0.959     0.829      0.742    5
+Weighted Avg.    0.758     0.291      0.751     0.758     0.724      0.755
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f   <-- classified as
+ 1289    2    4   13   15  639 |    a = 0
+    4    4    3    0    4  375 |    b = 1
+   11    2   69    3    6  363 |    c = 2
+   10    1    2  788    5  382 |    d = 3
+   40    4    7   17  450  921 |    e = 4
+   64   28   40   90   86 7232 |    f = 5
+

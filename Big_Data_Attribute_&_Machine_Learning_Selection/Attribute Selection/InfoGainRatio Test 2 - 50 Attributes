@@ -1,0 +1,140 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     iphone_smallmatrix_labeled_8d-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    12973
+Attributes:   59
+              iphone
+              samsunggalaxy
+              sonyxperia
+              nokialumia
+              htcphone
+              ios
+              googleandroid
+              iphonecampos
+              samsungcampos
+              sonycampos
+              nokiacampos
+              htccampos
+              iphonecamneg
+              samsungcamneg
+              sonycamneg
+              nokiacamneg
+              htccamneg
+              iphonecamunc
+              samsungcamunc
+              sonycamunc
+              nokiacamunc
+              htccamunc
+              iphonedispos
+              samsungdispos
+              sonydispos
+              nokiadispos
+              htcdispos
+              iphonedisneg
+              samsungdisneg
+              sonydisneg
+              nokiadisneg
+              htcdisneg
+              iphonedisunc
+              samsungdisunc
+              sonydisunc
+              nokiadisunc
+              htcdisunc
+              iphoneperpos
+              samsungperpos
+              sonyperpos
+              nokiaperpos
+              htcperpos
+              iphoneperneg
+              samsungperneg
+              sonyperneg
+              nokiaperneg
+              htcperneg
+              iphoneperunc
+              samsungperunc
+              sonyperunc
+              nokiaperunc
+              htcperunc
+              iosperpos
+              googleperpos
+              iosperneg
+              googleperneg
+              iosperunc
+              googleperunc
+              iphonesentiment
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 59 iphonesentiment):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.31513     1 iphone
+ 0.14146     5 htcphone
+ 0.12093    33 iphonedisunc
+ 0.11909    28 iphonedisneg
+ 0.11113     2 samsunggalaxy
+ 0.10229    13 iphonecamneg
+ 0.09486    18 iphonecamunc
+ 0.08741    23 iphonedispos
+ 0.07436     8 iphonecampos
+ 0.07371    27 htcdispos
+ 0.07271    12 htccampos
+ 0.06962    42 htcperpos
+ 0.06911     6 ios
+ 0.06288     7 googleandroid
+ 0.06253    32 htcdisneg
+ 0.06127    47 htcperneg
+ 0.05933    17 htccamneg
+ 0.05829    37 htcdisunc
+ 0.05363    43 iphoneperneg
+ 0.0532     22 htccamunc
+ 0.0517     52 htcperunc
+ 0.04752    38 iphoneperpos
+ 0.0443      3 sonyxperia
+ 0.03932    48 iphoneperunc
+ 0.03869     9 samsungcampos
+ 0.03539    24 samsungdispos
+ 0.03327    19 samsungcamunc
+ 0.03327    39 samsungperpos
+ 0.03143    34 samsungdisunc
+ 0.0308     29 samsungdisneg
+ 0.02978    54 googleperpos
+ 0.0293     49 samsungperunc
+ 0.02829    56 googleperneg
+ 0.02826    14 samsungcamneg
+ 0.02809    44 samsungperneg
+ 0.02718    58 googleperunc
+ 0.00861    10 sonycampos
+ 0.0082     53 iosperpos
+ 0.00745    55 iosperneg
+ 0.00626    25 sonydispos
+ 0.00488    57 iosperunc
+ 0.00444    20 sonycamunc
+ 0.00407    26 nokiadispos
+ 0.00363    41 nokiaperpos
+ 0.00341    31 nokiadisneg
+ 0.00332    46 nokiaperneg
+ 0.00332    11 nokiacampos
+ 0.00325     4 nokialumia
+ 0.00283    51 nokiaperunc
+ 0.00271    35 sonydisunc
+ 0.00269    36 nokiadisunc
+ 0.00254    30 sonydisneg
+ 0.00253    40 sonyperpos
+ 0.00223    21 nokiacamunc
+ 0.0022     16 nokiacamneg
+ 0.00215    45 sonyperneg
+ 0.0017     15 sonycamneg
+ 0.0012     50 sonyperunc
+
+Selected attributes: 1,5,33,28,2,13,18,23,8,27,12,42,6,7,32,47,17,37,43,22,52,38,3,48,9,24,19,39,34,29,54,49,56,14,44,58,10,53,55,25,57,20,26,41,31,46,11,4,51,35,36,30,40,21,16,45,15,50 : 58
+

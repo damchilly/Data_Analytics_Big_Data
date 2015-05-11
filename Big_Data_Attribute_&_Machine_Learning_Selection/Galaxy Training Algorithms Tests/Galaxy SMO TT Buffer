@@ -1,0 +1,49 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     galaxy_smallmatrix_labeled_8d-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.unsupervised.attribute.Remove-R4,11,15-16,20-21,26,30-31,35-36,40-41,45-46,50-51,57
+Instances:    12973
+Attributes:   41
+              iphone
+              samsunggalaxy
+              sonyxperia
+              htcphone
+              ios
+              googleandroid
+              iphonecampos
+              samsungcampos
+              sonycampos
+              htccampos
+              iphonecamneg
+              samsungcamneg
+              htccamneg
+              iphonecamunc
+              samsungcamunc
+              htccamunc
+              iphonedispos
+              samsungdispos
+              sonydispos
+              htcdispos
+              iphonedisneg
+              samsungdisneg
+              htcdisneg
+              iphonedisunc
+              samsungdisunc
+              htcdisunc
+              iphoneperpos
+              samsungperpos
+              htcperpos
+              iphoneperneg
+              samsungperneg
+              htcperneg
+              iphoneperunc
+              samsungperunc
+              htcperunc
+              iosperpos
+              googleperpos
+              iosperneg
+              googleperneg
+              googleperunc
+              galaxysentiment
+Test mode:10-fold cross-validation
+

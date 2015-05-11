@@ -1,0 +1,132 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.ChiSquaredAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     iphone_smallmatrix_labeled_8d-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    12973
+Attributes:   59
+              iphone
+              samsunggalaxy
+              sonyxperia
+              nokialumia
+              htcphone
+              ios
+              googleandroid
+              iphonecampos
+              samsungcampos
+              sonycampos
+              nokiacampos
+              htccampos
+              iphonecamneg
+              samsungcamneg
+              sonycamneg
+              nokiacamneg
+              htccamneg
+              iphonecamunc
+              samsungcamunc
+              sonycamunc
+              nokiacamunc
+              htccamunc
+              iphonedispos
+              samsungdispos
+              sonydispos
+              nokiadispos
+              htcdispos
+              iphonedisneg
+              samsungdisneg
+              sonydisneg
+              nokiadisneg
+              htcdisneg
+              iphonedisunc
+              samsungdisunc
+              sonydisunc
+              nokiadisunc
+              htcdisunc
+              iphoneperpos
+              samsungperpos
+              sonyperpos
+              nokiaperpos
+              htcperpos
+              iphoneperneg
+              samsungperneg
+              sonyperneg
+              nokiaperneg
+              htcperneg
+              iphoneperunc
+              samsungperunc
+              sonyperunc
+              nokiaperunc
+              htcperunc
+              iosperpos
+              googleperpos
+              iosperneg
+              googleperneg
+              iosperunc
+              googleperunc
+              iphonesentiment
+Evaluation mode:10-fold cross-validation
+
+
+
+=== Attribute selection 10 fold cross-validation (stratified), seed: 1 ===
+
+average merit      average rank  attribute
+7306.046 +-48.619       1   +- 0         1 iphone
+3296.641 +-51.224       2.2 +- 0.4       5 htcphone
+3248.681 +-46.305       2.8 +- 0.4      33 iphonedisunc
+3137.123 +-46.128       4   +- 0        28 iphonedisneg
+2639.66 +-34.781       5   +- 0        13 iphonecamneg
+2469.392 +-38.914       6   +- 0        18 iphonecamunc
+2204.512 +-31.98        7   +- 0         2 samsunggalaxy
+1999.979 +-30.236       8.1 +- 0.3      23 iphonedispos
+1937.744 +-26.389       8.9 +- 0.3       6 ios
+1748.868 +-37.333      10   +- 0         8 iphonecampos
+1669.256 +-31.887      11.2 +- 0.4      27 htcdispos
+1642.433 +-24.474      12.1 +- 0.54     12 htccampos
+1601.972 +-26.497      13.3 +- 0.64     42 htcperpos
+1609.266 +-22.635      13.4 +- 0.92      7 googleandroid
+1429.298 +-30.194      15   +- 0        32 htcdisneg
+1381.988 +-35.06       16   +- 0        47 htcperneg
+1316.854 +-34.429      17.5 +- 0.67     37 htcdisunc
+1318.081 +-34.532      17.8 +- 0.6      17 htccamneg
+1282.891 +-48.533      18.7 +- 0.64     43 iphoneperneg
+1202.679 +-30.567      20.1 +- 0.3      22 htccamunc
+1160.053 +-33.117      21.1 +- 0.54     52 htcperunc
+1101.493 +-36.6        22.4 +- 0.8       3 sonyxperia
+1075.907 +-29.491      22.6 +- 0.8      38 iphoneperpos
+1046.431 +-26.389      23.8 +- 0.4      48 iphoneperunc
+902.765 +-28.643      25   +- 0         9 samsungcampos
+848.709 +-24.907      26   +- 0        24 samsungdispos
+805.189 +-31.489      27.4 +- 0.66     54 googleperpos
+791.18 +-26.621      28.3 +- 0.78     19 samsungcamunc
+792.902 +-29.001      28.3 +- 0.64     39 samsungperpos
+761.203 +-27.296      30   +- 0        34 samsungdisunc
+735.013 +-30.59       31.1 +- 0.3      29 samsungdisneg
+716.886 +-29.198      32.2 +- 0.4      49 samsungperunc
+701.991 +-33.85       33.3 +- 1.27     56 googleperneg
+692.978 +-27.621      33.9 +- 0.83     58 googleperunc
+676.972 +-28.871      35   +- 0.77     44 samsungperneg
+668.194 +-32.746      35.5 +- 0.67     14 samsungcamneg
+192.929 +-10.78       37.2 +- 0.4      10 sonycampos
+175.806 +-11.266      37.8 +- 0.4      53 iosperpos
+156.08 +- 7.924      39.2 +- 0.4      55 iosperneg
+148.068 +- 7.481      39.8 +- 0.4      25 sonydispos
+103.079 +- 7.81       41.6 +- 0.66     26 nokiadispos
+96.659 +- 8.791      42.7 +- 1.9      57 iosperunc
+95.093 +- 6.343      43   +- 1.79     20 sonycamunc
+85.997 +- 7.395      44.8 +- 1.83     31 nokiadisneg
+82.789 +- 6.369      45.1 +- 1.58     41 nokiaperpos
+81.372 +- 4.953      46.2 +- 1.72     11 nokiacampos
+78.353 +- 6.176      47.6 +- 1.96      4 nokialumia
+77.841 +- 8.191      47.6 +- 1.56     46 nokiaperneg
+76.086 +- 8.28       47.8 +- 2.14     30 sonydisneg
+68.037 +-10.725      50.4 +- 2.87     45 sonyperneg
+69.048 +- 8.357      50.6 +- 1.85     51 nokiaperunc
+58.352 +- 4.923      52.8 +- 1.4      36 nokiadisunc
+57.653 +- 5.171      52.8 +- 1.4      35 sonydisunc
+56.272 +- 5.965      53.9 +- 1.58     21 nokiacamunc
+53.142 +- 5.657      54.3 +- 1.62     40 sonyperpos
+51.964 +- 3.53       55   +- 1.18     16 nokiacamneg
+39.742 +- 2.84       56.9 +- 0.54     15 sonycamneg
+33.095 +- 5.664      57.9 +- 0.3      50 sonyperunc
+

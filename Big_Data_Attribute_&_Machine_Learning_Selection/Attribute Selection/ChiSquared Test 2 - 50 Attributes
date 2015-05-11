@@ -1,0 +1,140 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.ChiSquaredAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     iphone_smallmatrix_labeled_8d-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    12973
+Attributes:   59
+              iphone
+              samsunggalaxy
+              sonyxperia
+              nokialumia
+              htcphone
+              ios
+              googleandroid
+              iphonecampos
+              samsungcampos
+              sonycampos
+              nokiacampos
+              htccampos
+              iphonecamneg
+              samsungcamneg
+              sonycamneg
+              nokiacamneg
+              htccamneg
+              iphonecamunc
+              samsungcamunc
+              sonycamunc
+              nokiacamunc
+              htccamunc
+              iphonedispos
+              samsungdispos
+              sonydispos
+              nokiadispos
+              htcdispos
+              iphonedisneg
+              samsungdisneg
+              sonydisneg
+              nokiadisneg
+              htcdisneg
+              iphonedisunc
+              samsungdisunc
+              sonydisunc
+              nokiadisunc
+              htcdisunc
+              iphoneperpos
+              samsungperpos
+              sonyperpos
+              nokiaperpos
+              htcperpos
+              iphoneperneg
+              samsungperneg
+              sonyperneg
+              nokiaperneg
+              htcperneg
+              iphoneperunc
+              samsungperunc
+              sonyperunc
+              nokiaperunc
+              htcperunc
+              iosperpos
+              googleperpos
+              iosperneg
+              googleperneg
+              iosperunc
+              googleperunc
+              iphonesentiment
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 59 iphonesentiment):
+	Chi-squared Ranking Filter
+
+Ranked attributes:
+8111.15821     1 iphone
+3659.00959     5 htcphone
+3598.53868    33 iphonedisunc
+3478.39508    28 iphonedisneg
+2929.94134    13 iphonecamneg
+2737.75637    18 iphonecamunc
+2448.55923     2 samsunggalaxy
+2209.80975    23 iphonedispos
+2151.94433     6 ios
+1933.33988     8 iphonecampos
+1850.55196    27 htcdispos
+1820.84784    12 htccampos
+1786.958       7 googleandroid
+1775.10464    42 htcperpos
+1582.55508    32 htcdisneg
+1529.31444    47 htcperneg
+1461.40423    17 htccamneg
+1458.72334    37 htcdisunc
+1415.52501    43 iphoneperneg
+1332.19307    22 htccamunc
+1285.14747    52 htcperunc
+1223.21015     3 sonyxperia
+1186.02935    38 iphoneperpos
+1156.5601     48 iphoneperunc
+ 999.91522     9 samsungcampos
+ 939.79428    24 samsungdispos
+ 891.4698     54 googleperpos
+ 878.07031    39 samsungperpos
+ 877.36441    19 samsungcamunc
+ 844.86489    34 samsungdisunc
+ 812.6534     29 samsungdisneg
+ 794.05861    49 samsungperunc
+ 774.6115     56 googleperneg
+ 768.93062    58 googleperunc
+ 749.75796    44 samsungperneg
+ 740.78105    14 samsungcamneg
+ 211.75258    10 sonycampos
+ 193.2827     53 iosperpos
+ 170.89269    55 iosperneg
+ 162.4867     25 sonydispos
+ 113.51689    26 nokiadispos
+ 105.50862    57 iosperunc
+ 104.12939    20 sonycamunc
+  94.8455     31 nokiadisneg
+  89.64059    41 nokiaperpos
+  89.62889    11 nokiacampos
+  85.84457     4 nokialumia
+  84.14328    46 nokiaperneg
+  83.56124    30 sonydisneg
+  75.21333    51 nokiaperunc
+  74.73144    45 sonyperneg
+  62.70481    36 nokiadisunc
+  61.89367    21 nokiacamunc
+  61.43384    35 sonydisunc
+  56.94578    40 sonyperpos
+  55.89193    16 nokiacamneg
+  41.33026    15 sonycamneg
+  34.72336    50 sonyperunc
+
+Selected attributes: 1,5,33,28,13,18,2,23,6,8,27,12,7,42,32,47,17,37,43,22,52,3,38,48,9,24,54,39,19,34,29,49,56,58,44,14,10,53,55,25,26,57,20,31,41,11,4,46,30,51,45,36,21,35,40,16,15,50 : 58
+

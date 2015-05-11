@@ -1,0 +1,80 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.GainRatioAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     iphone_smallmatrix_labeled_8d-weka.filters.unsupervised.attribute.Remove-R3-5,10-12,15-17,20-22,25-27,30-32,35-37,40-42,45-47,50-52-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    12973
+Attributes:   29
+              iphone
+              samsunggalaxy
+              ios
+              googleandroid
+              iphonecampos
+              samsungcampos
+              iphonecamneg
+              samsungcamneg
+              iphonecamunc
+              samsungcamunc
+              iphonedispos
+              samsungdispos
+              iphonedisneg
+              samsungdisneg
+              iphonedisunc
+              samsungdisunc
+              iphoneperpos
+              samsungperpos
+              iphoneperneg
+              samsungperneg
+              iphoneperunc
+              samsungperunc
+              iosperpos
+              googleperpos
+              iosperneg
+              googleperneg
+              iosperunc
+              googleperunc
+              iphonesentiment
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 29 iphonesentiment):
+	Gain Ratio feature evaluator
+
+Ranked attributes:
+ 0.3936    9 iphonecamunc
+ 0.3062   14 samsungdisneg
+ 0.2989    4 googleandroid
+ 0.2979    2 samsunggalaxy
+ 0.2943   20 samsungperneg
+ 0.2903    8 samsungcamneg
+ 0.2834   24 googleperpos
+ 0.2821   26 googleperneg
+ 0.2316   28 googleperunc
+ 0.2119    1 iphone
+ 0.2078   15 iphonedisunc
+ 0.1861    3 ios
+ 0.183    18 samsungperpos
+ 0.1643   12 samsungdispos
+ 0.1627    7 iphonecamneg
+ 0.1549   10 samsungcamunc
+ 0.1502   22 samsungperunc
+ 0.1494   11 iphonedispos
+ 0.1479   16 samsungdisunc
+ 0.1328   21 iphoneperunc
+ 0.1169    6 samsungcampos
+ 0.0978    5 iphonecampos
+ 0.0739   19 iphoneperneg
+ 0.0687   17 iphoneperpos
+ 0.0497   27 iosperunc
+ 0.047    25 iosperneg
+ 0.0416   13 iphonedisneg
+ 0.0302   23 iosperpos
+
+Selected attributes: 9,14,4,2,20,8,24,26,28,1,15,3,18,12,7,10,22,11,16,21,6,5,19,17,27,25,13,23 : 28
+

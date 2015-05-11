@@ -1,0 +1,52 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     galaxy_smallmatrix_labeled_8d-weka.filters.unsupervised.attribute.Remove-R3-5,10-12,15-17,20-22,25-27,30-32,35-37,40-42,45-47,50-52-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.unsupervised.attribute.Remove-R8,10,12,14,16,18,20,22-28
+Instances:    12973
+Attributes:   15
+              iphone
+              samsunggalaxy
+              ios
+              googleandroid
+              iphonecampos
+              samsungcampos
+              iphonecamneg
+              iphonecamunc
+              iphonedispos
+              iphonedisneg
+              iphonedisunc
+              iphoneperpos
+              iphoneperneg
+              iphoneperunc
+              galaxysentiment
+Evaluation mode:evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 15 galaxysentiment):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.3417   1 iphone
+ 0.1206  10 iphonedisneg
+ 0.12    11 iphonedisunc
+ 0.119    2 samsunggalaxy
+ 0.1026   7 iphonecamneg
+ 0.0955   8 iphonecamunc
+ 0.0889   9 iphonedispos
+ 0.0766   5 iphonecampos
+ 0.0702   3 ios
+ 0.0654   4 googleandroid
+ 0.0557  13 iphoneperneg
+ 0.0491  12 iphoneperpos
+ 0.0411   6 samsungcampos
+ 0.0405  14 iphoneperunc
+
+Selected attributes: 1,10,11,2,7,8,9,5,3,4,13,12,6,14 : 14
+
