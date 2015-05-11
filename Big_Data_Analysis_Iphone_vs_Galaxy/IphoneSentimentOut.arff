@@ -1,0 +1,45 @@
+@relation 'Concatenated-weka.filters.unsupervised.attribute.Remove-R1-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last-weka.filters.unsupervised.attribute.Remove-R4,11,15-16,20-21,25-26,30-31,35-36,40-41,45-46,50-51,57'
+
+@attribute iphone {78026}
+@attribute samsunggalaxy {4538}
+@attribute sonyxperia {590}
+@attribute htcphone {5895}
+@attribute ios {6867}
+@attribute googleandroid {2320}
+@attribute iphonecampos {29523}
+@attribute samsungcampos {15344}
+@attribute sonycampos {1024}
+@attribute htccampos {15381}
+@attribute iphonecamneg {17684}
+@attribute samsungcamneg {8197}
+@attribute htccamneg {9191}
+@attribute iphonecamunc {17614}
+@attribute samsungcamunc {7683}
+@attribute htccamunc {9706}
+@attribute iphonedispos {62668}
+@attribute samsungdispos {6822}
+@attribute htcdispos {10378}
+@attribute iphonedisneg {54666}
+@attribute samsungdisneg {7937}
+@attribute htcdisneg {8697}
+@attribute iphonedisunc {43731}
+@attribute samsungdisunc {3703}
+@attribute htcdisunc {7446}
+@attribute iphoneperpos {50050}
+@attribute samsungperpos {8162}
+@attribute htcperpos {12557}
+@attribute iphoneperneg {39555}
+@attribute samsungperneg {5885}
+@attribute htcperneg {10208}
+@attribute iphoneperunc {30757}
+@attribute samsungperunc {3786}
+@attribute htcperunc {7622}
+@attribute iosperpos {11617}
+@attribute googleperpos {4626}
+@attribute iosperneg {11620}
+@attribute googleperneg {4387}
+@attribute googleperunc {3877}
+@attribute iphonesentiment {0,1,2,3,4,5}
+
+@data
+78026,4538,590,5895,6867,2320,29523,15344,1024,15381,17684,8197,9191,17614,7683,9706,62668,6822,10378,54666,7937,8697,43731,3703,7446,50050,8162,12557,39555,5885,10208,30757,3786,7622,11617,4626,11620,4387,3877,5
