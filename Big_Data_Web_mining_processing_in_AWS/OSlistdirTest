@@ -1,0 +1,16 @@
+import os
+import sys
+
+# print "This is the path:", sys.argv[0]
+items = os.listdir(".")
+
+print items
+
+newlist = []
+
+for names in items:
+    if names.endswith(".bdf"):
+        newlist.append(names)
+
+print newlist
+        

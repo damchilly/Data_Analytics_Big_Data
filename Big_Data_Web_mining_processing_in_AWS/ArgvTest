@@ -1,0 +1,5 @@
+import sys
+
+print "This is the name of the Script:", sys.argv[0]
+print "number of arguments", len(sys.argv)
+print "arguments are:", str(sys.argv)
